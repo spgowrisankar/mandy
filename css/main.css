@@ -1594,12 +1594,18 @@ input[type = "submit"]{
     background: #C652C7;
     content: '';
 }
+/* Start Of About-Section-2 */
 .abt-section-2 {
     display: flex;
-    padding: 50px 0;
+    justify-content: space-around;
 }
+
 .abt-section-2-left {
-    width: 50%;
+    width:50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
 }
 .section-2-head {
     color: #18365E;
@@ -1607,20 +1613,77 @@ input[type = "submit"]{
     font-weight: bold;
     letter-spacing: 0;
     line-height: 56px;
+    padding: 20px 0;
 }
 .section-2-head::after {
     position: absolute;
+    display: block;
     width: 141px;
     height: 4px;
     background: #C652C7;
     content: '';
-}
-.abt-section-2-left {
-    margin: auto;
+    margin-top: 25px;
 }
 .section-2-content {
+    width: 369px;
+    padding: 40px 0;
     color: #626F74;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 24px
 }
+.abt-section-2 .transparent-button {
+     padding: 20px 40px;
+}
+.abt-section-2 .transparent-button:hover {
+    background-color: #C652C7;
+    color: #FFFFFF;
+    border: none;
+}
+.abt-section-2-right {
+    display: flex;
+    width: 50%;
+    padding: 100px 0;
+    justify-content: center;
+}
+.section-rt-lt {
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+}
+.rt-lt-1 {
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    padding: 35px;
+    margin: auto;
+}
+.section-2-num {
+    color: #00B0DA;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 95px;
+
+}
+.section-2-num-content {
+    width: 157px;
+    color: #18365E;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 17px;
+    text-align: center;
+}
+.section-rt-rt {
+    display: block;
+    padding: 100px 0;
+}
+.right-rt{
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    padding: 35px;
+}
+.num-1 {color: #28939C;}
+.num-2 {color: #00B0DA;}
+.num-3 {color: #F2A900;}
